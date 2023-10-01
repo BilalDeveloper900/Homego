@@ -1,0 +1,269 @@
+$blue-color :#29487A;
+$red-color: #F24722;
+$pink-color: #F7D7CF;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.container__1 {
+    margin: auto;
+    width: 60vw;
+    position: static;
+    height: auto;
+
+    nav {
+        display: flex;
+        border-bottom: 4px solid #F24722;
+
+        img {
+            width: auto;
+            height: 25px;
+        }
+
+        b {
+            font-size: 20px;
+            color: $blue-color;
+            float: right;
+
+            font-weight: 900;
+        }
+    }
+
+    .home-para {
+        font-weight: 600;
+        padding-top: 15%;
+    }
+
+    .home-para1 {
+        font-size: 18px;
+        font-weight: 700;
+        display: flex;
+        color: $red-color;
+
+        i {
+            font-size: 30px;
+            color: $red-color;
+            padding-left: 5px;
+        }
+    }
+
+    .home-1 {
+
+
+        color: $blue-color ;
+
+
+        h3 {
+            font-weight: 700;
+            overflow-y: hidden;
+
+        }
+
+        form {
+            background-color: $blue-color;
+            color: #ffffff;
+            padding: 17px 30px;
+
+            .button__btn {
+                background-color: $red-color;
+                color: white;
+                width: 100%;
+                line-height: 40px;
+                font-weight: 600;
+
+            }
+
+            label {
+                font-weight: 600;
+                display: block;
+            }
+
+            input {
+                width: 100%;
+
+
+            }
+        }
+    }
+}
+
+.home__home {
+    .img-1 {
+        width: 80%;
+        padding-top: 6%;
+    }
+
+    img {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+.section-1 {
+    background: linear-gradient(to top, #ffffff 0vh, #ffffff 25vh, $pink-color 25vh, $pink-color 100vh);
+    position: static;
+
+}
+
+.section-2 {
+    background: $pink-color;
+    margin-top: 3%;
+
+    #container-2 {
+        h3 {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 100px;
+            color: $blue-color;
+
+        }
+
+        img {
+            display: block;
+
+        }
+
+
+        .card-1 {
+            border-top: 4px solid $blue-color;
+            margin-top: 15px;
+            padding-top: 15px;
+        }
+
+
+
+        b {
+            font-size: 22px;
+            // padding-top: 10px;
+            color: $blue-color ;
+        }
+    }
+}
+
+.container__2 {
+    margin: auto;
+    width: 50vw;
+    position: static;
+    height: auto;
+
+    .img-2 {
+        margin: 60px 0px;
+        // margin: auto;
+    }
+
+    img {
+        margin: auto;
+        height: 206px;
+    }
+
+    h3 {
+        font-weight: 900;
+        overflow-y: hidden;
+        color: #132b51;
+    }
+}
+
+.last {
+    border-top: 4px solid $red-color;
+    border-bottom: 4px solid $red-color;
+    padding: 15px 0px;
+}
+
+footer {
+    background-color: $blue-color;
+    line-height: 60px;
+
+    img {
+        color: #ffffff;
+        width: auto;
+        height: 25px;
+    }
+
+    b {
+        color: white;
+        float: right;
+        font-weight: 900;
+    }
+}
+
+
+
+
+@media (max-width: 576px) {
+    .container__1 {
+        width: 95vw;
+
+
+    }
+
+    .container__2 {
+        width: 80vw;
+
+        .img-2 {
+            margin-left: 55px;
+        }
+    }
+
+    .img-1 {
+        margin-left: 33px;
+        margin-top: 30px;
+    }
+}
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .container__1 {
+        width: 90vw;
+
+    }
+
+    .cont__1 {
+        width: 90vw;
+    }
+
+    .container__2 {
+        width: 70vw;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .container__1 {
+        width: 90vw;
+
+    }
+
+    .cont__1 {
+        width: 90%;
+    }
+
+    .container__2 {
+        width: 70vw;
+    }
+
+}
+
+
+@media (min-width: 993px) {}
+
+
+.cont__1 {
+    width: 60%;
+    margin: auto;
+    // border: 3px solid;
+
+    img {
+        width: 252px;
+        height: 145px;
+    }
+}
